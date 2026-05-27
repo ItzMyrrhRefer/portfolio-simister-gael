@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Portfolio SIMISTER Gaël</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">Portfolio SIMISTER Gaël</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">À propos</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Stage <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="stage1.html" class="dropdown-link">Stage 1ère année</a>
+                        <a href="stage2.html" class="dropdown-link">Stage 2ème année</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="projet.html" class="nav-link">Projet</a>
+                </li>
+                <li class="nav-item">
+                    <a href="certification.html" class="nav-link">Certification</a>
+                </li>
+                <li class="nav-item">
+                    <a href="veille.html" class="nav-link">Veille</a>
+                </li>
+                <li class="nav-item">
+                    <a href="annexe.html" class="nav-link">Annexe</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="stage-header">
+        <div class="container">
+            <h1>Contactez-moi</h1>
+            <p>N'hésitez pas à me contacter pour discuter de collaborations ou d'opportunités</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section>
+        <div class="container">
+            <!-- Informations de contact -->
+            <div class="contact-info">
+                <div style="margin-bottom: 2rem;">
+                    <h3>Informations de contact</h3>
+                </div>
+                <div style="display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap;">
+                    <div>
+                        <p style="color: #666; margin-bottom: 0.5rem;">E-mail</p>
+                        <a href="mailto:gaelsimister09@gmail.com" style="font-weight: 600; font-size: 1.1rem;">
+                            <i class="fas fa-envelope"></i> gaelsimister09@gmail.com
+                        </a>
+                    </div>
+                    <div>
+                        <p style="color: #666; margin-bottom: 0.5rem;">LinkedIn</p>
+                        <a href="https://www.linkedin.com/in/gaël-simister-b56bb8327/" target="_blank" style="font-weight: 600; font-size: 1.1rem;">
+                            <i class="fab fa-linkedin"></i> Mon profil LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formulaire de contact -->
+            <div class="contact-form" style="margin-top: 3rem;">
+                <h3 style="margin-bottom: 2rem; text-align: center;">Formulaire de contact</h3>
+                <div class="success-message">
+                    ✓ Merci pour votre envoi! Je vous répondrai dans les plus brefs délais.
+                </div>
+                <form>
+                    <div class="form-group">
+                        <label for="prenom">Prénom</label>
+                        <input type="text" id="prenom" name="prenom" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="nom">Nom</label>
+                        <input type="text" id="nom" name="nom" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary form-button">
+                        <i class="fas fa-paper-plane"></i> Envoyer
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 SIMISTER Gaël - Portfolio BTS SIO SISR</p>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/gaël-simister-b56bb8327/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:gaelsimister09@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
